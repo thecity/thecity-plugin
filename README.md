@@ -31,7 +31,7 @@ This gem provides a method to take your city_date, city_data_iv, and secret and 
 
 example usage:
 
-Cityplugin::decrypt_city_data(ENCRYPTED_STRING, IV, SECRET)
+    $ Cityplugin::decrypt_city_data(ENCRYPTED_STRING, IV, SECRET)
 
 NOTE: SECRET is actually the first 32 characters of your secret key
 
