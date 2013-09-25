@@ -1,4 +1,4 @@
-# Cityplugin
+# The City Plugin
 
 Provides methods to decrypt data coming from The City plugin framework.
 
@@ -8,7 +8,7 @@ Tested with Ruby 1.9.3
 
 Add this line to your application's Gemfile:
 
-    gem 'cityplugin'
+    gem 'thecity-plugin'
 
 And then execute:
 
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install cityplugin
+    $ gem install thecity-plugin
 
 ## Usage
 
@@ -31,7 +31,7 @@ This gem provides a method to take your city_date, city_data_iv, and secret and 
 
 example usage:
 
-    $ Cityplugin::decrypt_city_data(ENCRYPTED_STRING, IV, SECRET)
+    $ Thecity::Plugin::decrypt_city_data(ENCRYPTED_STRING, IV, SECRET)
 
 NOTE: SECRET is actually the first 32 characters of your secret key
 

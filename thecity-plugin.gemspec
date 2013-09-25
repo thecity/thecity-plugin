@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'cityplugin/version'
+require 'thecity-plugin/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "cityplugin"
-  gem.version       = Cityplugin::VERSION
+  gem.name          = "thecity-plugin"
+  gem.version       = Thecity::Plugin::VERSION
   gem.authors       = ["Mark Blair"]
   gem.email         = ["mark@onthecity.org"]
   gem.description   = %q{Provides methods to decrypt data coming from The City plugin framework}

@@ -1,9 +1,10 @@
-require "cityplugin/version"
+require "thecity-plugin/version"
 require "base64"
 require 'openssl'
 require 'uri'
 
-module Cityplugin
+module Thecity
+  module Plugin
 
   def self.decrypt_city_data(city_data, city_data_iv, secret)
     if !city_data.nil?
@@ -22,5 +23,5 @@ module Cityplugin
     aes.iv = iv if iv != nil
     aes.update(encrypted_data) + aes.final
   end
-
+ end
 end

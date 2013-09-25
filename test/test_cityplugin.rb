@@ -1,5 +1,5 @@
 require 'test/unit'
-require 'Cityplugin'
+require 'thecity-plugin'
 
 
 class CitypluginTest < Test::Unit::TestCase
@@ -11,7 +11,7 @@ class CitypluginTest < Test::Unit::TestCase
   TEST_SECRET = '2566099a01ddb7913a9a37dd967a74bd'
 
   def test_decrypt
-    assert_equal(TEST_DECRYPTED_STRING, Cityplugin::decrypt_city_data(TEST_ENCRYPTED_STRING, TEST_IV, TEST_SECRET))
+    assert_equal(TEST_DECRYPTED_STRING, Thecity::Plugin::decrypt_city_data(TEST_ENCRYPTED_STRING, TEST_IV, TEST_SECRET))
   end
 
 end
