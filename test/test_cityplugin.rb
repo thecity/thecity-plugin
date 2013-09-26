@@ -1,5 +1,6 @@
 require 'test/unit'
 require 'thecity-plugin'
+require "base64"
 
 
 class CitypluginTest < Test::Unit::TestCase
