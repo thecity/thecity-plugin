@@ -1,5 +1,7 @@
 # The City Plugin
 
+[![Gem Version](https://badge.fury.io/rb/thecity-plugin.png)](http://badge.fury.io/rb/thecity-plugin)
+
 Provides methods to decrypt data coming from The City plugin framework.
 
 ## Installation
