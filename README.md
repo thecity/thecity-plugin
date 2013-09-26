@@ -1,6 +1,7 @@
 # The City Plugin
 
 [![Gem Version](https://badge.fury.io/rb/thecity-plugin.png)](http://badge.fury.io/rb/thecity-plugin)
+[![Build Status](https://travis-ci.org/thecity/thecity-plugin.png?branch=master)](https://travis-ci.org/thecity/thecity-plugin)
 
 Provides methods to decrypt data coming from The City plugin framework.
 
